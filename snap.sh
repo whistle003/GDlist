@@ -1,3 +1,5 @@
+exec 1>>crawl_log  
+exec 2>>crawl_log_err
 #!/bin/bash
 cd /root/snap2html/DiogenesList-master/
 python3 /root/snap2html/DiogenesList-master/diogeneslist.py /home index
