@@ -13,4 +13,5 @@ cp /root/snap2html/DiogenesList-master/index.html /root/snapGit/
 cd /root/snapGit
 git add .
 git commit -m 'snap2htmlDailyUpdate'
-git push  https://github.com/whistle003/GDlist.git
+git pull --rebase origin master
+git push origin master
