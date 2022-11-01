@@ -45,3 +45,20 @@ Traceback (most recent call last):
   File "/usr/lib/python3.8/genericpath.py", line 50, in getsize
     return os.stat(filename).st_size
 ConnectionAbortedError: [Errno 103] Software caused connection abort: '/home/02国产剧集/02.国产剧/笑傲江湖 (2013)/Season 01/Swordsman.2013.S01E13-thumb.jpg'
+fatal: Unable to create '/root/snapGit/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/root/snapGit/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Everything up-to-date
