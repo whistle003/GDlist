@@ -96,3 +96,13 @@ error: cannot pull with rebase: You have unstaged changes.
 error: please commit or stash them.
 To https://github.com/whistle003/GDlist.git/
    23c5f7e..1371f9c  master -> master
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/whistle003/GDlist.git/
+   8c2370c..0e62d12  master -> master
+Traceback (most recent call last):
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 129, in <module>
+    generateDirArray(pathToIndex)
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 84, in generateDirArray
+    for g in range(len(allDirArray[d])):
+TypeError: object of type 'int' has no len()
