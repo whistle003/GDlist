@@ -228,3 +228,13 @@ Traceback (most recent call last):
   File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 84, in generateDirArray
     for g in range(len(allDirArray[d])):
 TypeError: object of type 'int' has no len()
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/whistle003/GDlist.git/
+   6ef8456..e73003c  master -> master
+Traceback (most recent call last):
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 129, in <module>
+    generateDirArray(pathToIndex)
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 84, in generateDirArray
+    for g in range(len(allDirArray[d])):
+TypeError: object of type 'int' has no len()
