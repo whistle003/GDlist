@@ -273,3 +273,13 @@ Traceback (most recent call last):
   File "/usr/lib/python3.8/genericpath.py", line 50, in getsize
     return os.stat(filename).st_size
 ConnectionAbortedError: [Errno 103] Software caused connection abort: '/home/02国产剧集/02.国产剧/芈月传 (2015)/Season 01/Legend.of.Miyue.2015.S01E70.mp4'
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+To https://github.com/whistle003/GDlist.git/
+   335534a..73d22f3  master -> master
+Traceback (most recent call last):
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 129, in <module>
+    generateDirArray(pathToIndex)
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 84, in generateDirArray
+    for g in range(len(allDirArray[d])):
+TypeError: object of type 'int' has no len()
