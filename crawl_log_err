@@ -313,3 +313,11 @@ error: please commit or stash them.
 To https://github.com/whistle003/GDlist.git/
  ! [remote rejected] master -> master (cannot lock ref 'refs/heads/master': is at 51c2321db32c24002e336c78b88fc71abec1f4fa but expected 5f67b381fefe1ba1814e9b9efee8f5e0df5736fa)
 error: failed to push some refs to 'https://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@github.com/whistle003/GDlist.git/'
+Traceback (most recent call last):
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 129, in <module>
+    generateDirArray(pathToIndex)
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 54, in generateDirArray
+    fileModifiedTime = datetime.datetime.fromtimestamp(os.path.getmtime(currentDir+'/'+file))
+  File "/usr/lib/python3.8/genericpath.py", line 55, in getmtime
+    return os.stat(filename).st_mtime
+ConnectionAbortedError: [Errno 103] Software caused connection abort: '/home/02国产剧集/02.国产剧/白鹿原 (2017)/Season 01/White.Deer.Plain.2017.S01E11.nfo'
