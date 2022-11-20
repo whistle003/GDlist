@@ -321,3 +321,26 @@ Traceback (most recent call last):
   File "/usr/lib/python3.8/genericpath.py", line 55, in getmtime
     return os.stat(filename).st_mtime
 ConnectionAbortedError: [Errno 103] Software caused connection abort: '/home/02国产剧集/02.国产剧/白鹿原 (2017)/Season 01/White.Deer.Plain.2017.S01E11.nfo'
+fatal: Unable to create '/root/snapGit/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+fatal: Unable to create '/root/snapGit/.git/index.lock': File exists.
+
+Another git process seems to be running in this repository, e.g.
+an editor opened by 'git commit'. Please make sure all processes
+are terminated then try again. If it still fails, a git process
+may have crashed in this repository earlier:
+remove the file manually to continue.
+error: cannot pull with rebase: You have unstaged changes.
+error: please commit or stash them.
+Everything up-to-date
+Traceback (most recent call last):
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 129, in <module>
+    generateDirArray(pathToIndex)
+  File "/root/snap2html/DiogenesList-master/diogeneslist.py", line 84, in generateDirArray
+    for g in range(len(allDirArray[d])):
+TypeError: object of type 'int' has no len()
